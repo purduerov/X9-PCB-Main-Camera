@@ -500,23 +500,6 @@ W = angled&lt;p&gt;
 <label x="88.9" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+5VCAMERA" class="0">
-<segment>
-<pinref part="SERVO" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="147.32" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
-<label x="121.92" y="134.62" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="U$5" gate="G$1" pin="P$4"/>
-<wire x1="86.36" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
-<label x="88.9" y="93.98" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="VCC(5V)"/>
-<wire x1="119.38" y1="88.9" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
-<label x="119.38" y="73.66" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
 <net name="+3.3V" class="0">
 <segment>
 <pinref part="LIGHT" gate="G$1" pin="5"/>
@@ -573,6 +556,23 @@ W = angled&lt;p&gt;
 <pinref part="U$1" gate="G$1" pin="D_P"/>
 <wire x1="121.92" y1="88.9" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
 <label x="121.92" y="78.74" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="+5VCAMERA" class="0">
+<segment>
+<pinref part="SERVO" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="147.32" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
+<label x="121.92" y="134.62" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="P$4"/>
+<wire x1="86.36" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
+<label x="88.9" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VCC(5V)"/>
+<wire x1="119.38" y1="88.9" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
+<label x="119.38" y="73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
