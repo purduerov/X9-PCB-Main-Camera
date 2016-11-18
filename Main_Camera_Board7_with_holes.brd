@@ -67,8 +67,6 @@
 <wire x1="123.19" y1="4.572" x2="-3.81" y2="4.572" width="0.4064" layer="20"/>
 <wire x1="-3.81" y1="4.572" x2="-3.81" y2="48.768" width="0.4064" layer="20"/>
 <text x="-3.556" y="50.292" size="1.778" layer="51">5 in x 1.74 in</text>
-<hole x="8.89" y="25.4" drill="2.2"/>
-<hole x="110.49" y="25.4" drill="2.2"/>
 <text x="91.186" y="8.382" size="1.778" layer="25" rot="R90">PWM</text>
 <text x="93.472" y="8.382" size="1.778" layer="25" rot="R90">+5V</text>
 <text x="95.758" y="8.382" size="1.778" layer="25" rot="R90">GND</text>
